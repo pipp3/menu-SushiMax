@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Menu SushiMax 🍱
 
-## Getting Started
+Este proyecto es una aplicación web moderna para mostrar el menú de SushiMax, desarrollada con Next.js y diseñada para ofrecer una experiencia de usuario fluida y atractiva.
 
-First, run the development server:
+## 🚀 Tecnologías Principales
+
+- **Next.js 15.2.4**: Framework de React para producción
+- **React 19**: Biblioteca de JavaScript para interfaces de usuario
+- **Firebase**: Plataforma de desarrollo de aplicaciones
+- **Tailwind CSS**: Framework de CSS para diseño responsive
+- **Swiper**: Biblioteca para carruseles y sliders
+- **Next Cloudinary**: Integración con Cloudinary para gestión de imágenes
+- **React Loading Skeleton**: Para estados de carga elegantes
+
+## 🛠️ Características Actuales
+
+- Menú digital interactivo
+- Diseño responsive para todos los dispositivos
+- Categorización de productos
+- Interfaz moderna y atractiva
+- Optimización de rendimiento
+- Integración con Firebase
+- Gestión de imágenes con Cloudinary
+- Carruseles interactivos con Swiper
+- Estados de carga optimizados
+
+## 🔄 Próximas Mejoras
+
+### Fase 1: Sistema de Pedidos
+- Implementación de carrito de compras
+- Sistema de pedidos online
+- Opciones de retiro en local
+- Sistema de delivery
+- Gestión de pedidos en tiempo real
+
+### Fase 2: E-commerce Completo
+- Sistema de pagos integrado
+- Cuentas de usuario
+- Historial de pedidos
+- Sistema de recompensas
+- Gestión de inventario
+- Panel de administración
+
+## 🚀 Iniciar el Proyecto
+
+Primero, instala las dependencias:
+
+```bash
+npm install
+# o
+yarn install
+# o
+pnpm install
+```
+
+Luego, inicia el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
+# o
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📚 Recursos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Documentación de Next.js](https://nextjs.org/docs)
+- [Documentación de Tailwind CSS](https://tailwindcss.com/docs)
+- [Documentación de TypeScript](https://www.typescriptlang.org/docs/)
 
-## Learn More
+## 🌐 Despliegue
 
-To learn more about Next.js, take a look at the following resources:
+La aplicación está optimizada para ser desplegada en [Vercel](https://vercel.com), la plataforma creada por los creadores de Next.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Licencia
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este proyecto es privado y todos los derechos están reservados.

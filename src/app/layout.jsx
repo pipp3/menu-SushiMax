@@ -13,7 +13,19 @@ const inter = Inter({
 
 export const metadata = {
   title: "SushiMax - Tu mejor opción en sushi",
-  description: "Restaurante de sushi y comida japonesa",
+  description: "Restaurante de sushi y comida japonesa en [tu ubicación]. Disfruta de los mejores rolls, sashimi y platos japoneses auténticos. Pedidos online y entrega a domicilio.",
+  keywords: "sushi, comida japonesa, rolls, sashimi, restaurante japonés, pedidos online, entrega a domicilio",
+  authors: [{ name: "SushiMax" }],
+  creator: "SushiMax",
+  publisher: "SushiMax",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  icons: {
+    icon: '/icon.svg',
+  },
 };
 
 export default function RootLayout({ children }) {

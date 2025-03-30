@@ -16,13 +16,13 @@ const images = [
 
 export default function Carousel() {
   return (
-    <div className="w-full -mx-4 sm:-mx-6 lg:-mx-8">
+    <div className="relative w-full max-w-[1920px] mx-auto px-4 sm:px-6 lg:px-8">
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{ clickable: true }}
         autoplay={{ delay: 3000 }}
         loop
-        className="w-full h-[300px] xs:h-[350px] sm:h-[400px] md:h-[450px] lg:h-[500px] xl:h-[600px]"
+        className="w-full h-[250px] xs:h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] xl:h-[600px] rounded-lg overflow-hidden"
       >
         {images.map((src, index) => (
           <SwiperSlide key={index}>
@@ -34,6 +34,7 @@ export default function Carousel() {
               className="w-full h-full object-cover"
               priority={index === 0}
               sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, 100vw"
+              quality={90}
             />
           </SwiperSlide>
         ))}
